@@ -8,3 +8,12 @@ export function display(user: User) {
 }
 
 display({ name: 'John', age: 10 });
+
+let x = display({ name: 'John', age: 10 });
+
+const someJson = '{name: "Foo" }';
+
+let someObj;
+someObj = JSON.parse(someJson);
+
+someObj.age;

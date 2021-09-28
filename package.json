@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "compile": "tsc index.ts",
+        "compile": "tsc  --p ./",
         "dev": "ts-node-dev --respawn  index.ts"
     },
     "author": "Shripada <shripada@robosoftin.com> (Robosoft Technologies Pvt Ltd)",
